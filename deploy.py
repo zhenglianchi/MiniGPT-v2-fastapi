@@ -503,7 +503,7 @@ class Minigpt4V2_Server:
 @dataclass
 class DeployConfig:
     # Server Configuration
-    host: str = "10.129.38.192"                                         # Host IP Address
+    host: str = "0.0.0.0"                                         # Host IP Address
     port: int = 8001                                                    # Host Port
 
 
