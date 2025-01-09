@@ -26,7 +26,7 @@ image_path = example["image_path"][question_index]
 instruction = example["instruction"][question_index]
 
 # 准备请求数据
-url = "http://10.129.38.192:8001/act"
+url = "http://0.0.0.0:8001/act"
 
 image = np.array(Image.open(image_path))
 query = {"instruction": instruction, "image": image}
